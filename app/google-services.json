@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "422599732322",
+    "project_id": "cropmer-firebase",
+    "storage_bucket": "cropmer-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422599732322:android:74bca4025c30ee37cbf53b",
+        "android_client_info": {
+          "package_name": "com.CropMer.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422599732322-54cqcor55kjm76ptn7ppg51sg7hvgna2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt8QRgCOZI7y_9kqe0XV_3NsTVGpL9AFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422599732322-54cqcor55kjm76ptn7ppg51sg7hvgna2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
