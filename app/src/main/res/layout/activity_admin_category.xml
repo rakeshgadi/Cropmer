@@ -31,29 +31,28 @@
 
         <ImageView
             android:id="@+id/t_shirts"
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/tshirts"
-            />
+            android:src="@drawable/corn" />
         <ImageView
             android:id="@+id/sports_t_shirts"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/sports"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/rice"
             />
 
         <ImageView
             android:id="@+id/female_dresses"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/female_dresses"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/wheat"
             />
 
         <ImageView
             android:id="@+id/sweathers"
             android:layout_width="90dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/sweather"
+            android:layout_height="80dp"
+            android:src="@drawable/cotton"
             />
     </LinearLayout>
     <LinearLayout
@@ -70,28 +69,28 @@
             android:id="@+id/glasses"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/glasses"
+            android:src="@drawable/sugarcane"
             />
 
         <ImageView
             android:id="@+id/purses_bags_wallets"
             android:layout_width="90dp"
             android:layout_height="80dp"
-            android:src="@drawable/purses_bags"
+            android:src="@drawable/drymirchi"
             />
 
         <ImageView
             android:id="@+id/hats_caps"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/hats"
+            android:src="@drawable/redgram"
             />
 
         <ImageView
             android:id="@+id/shoes"
             android:layout_width="70dp"
             android:layout_height="80dp"
-            android:src="@drawable/shoess"
+            android:src="@drawable/greengram"
             android:layout_marginStart="16dp"
             />
 
@@ -110,28 +109,68 @@
             android:id="@+id/headphones_handfree"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/headphoness"
+            android:src="@drawable/tomato"
             />
 
         <ImageView
             android:id="@+id/laptop_pc"
             android:layout_width="90dp"
             android:layout_height="80dp"
-            android:src="@drawable/laptops"
+            android:src="@drawable/potato"
             />
 
         <ImageView
             android:id="@+id/watches"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:src="@drawable/watches"
+            android:src="@drawable/carrot"
             />
 
         <ImageView
             android:id="@+id/mobilephones"
             android:layout_width="70dp"
             android:layout_height="80dp"
-            android:src="@drawable/mobiles"
+            android:src="@drawable/leafy"
+            android:layout_marginStart="16dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear4_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/headphones_handfree1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cow"
+            />
+
+        <ImageView
+            android:id="@+id/laptop_pc1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/buffalo"
+            />
+
+        <ImageView
+            android:id="@+id/watches1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/goat"
+            />
+
+        <ImageView
+            android:id="@+id/mobilephones1"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hen"
             android:layout_marginStart="16dp"
             />
 

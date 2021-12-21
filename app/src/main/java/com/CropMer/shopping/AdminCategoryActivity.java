@@ -13,6 +13,7 @@ public class AdminCategoryActivity extends AppCompatActivity {
     private ImageView tShirts, sportsTShirts, femaleDresses, sweathers;
     private ImageView glasses, hatsCaps, walletsBagsPurses, shoes;
     private ImageView headPhonesHandFree, Laptops, watches, mobilePhones;
+    private ImageView headPhonesHandFree1, Laptops1, watches1, mobilePhones1;
     private Button LogoutBtn, CheckOrdersBtn;
 
     @Override
@@ -57,6 +58,11 @@ public class AdminCategoryActivity extends AppCompatActivity {
         Laptops = (ImageView) findViewById(R.id.laptop_pc);
         watches = (ImageView) findViewById(R.id.watches);
         mobilePhones = (ImageView) findViewById(R.id.mobilephones);
+
+        headPhonesHandFree1 = (ImageView) findViewById(R.id.headphones_handfree);
+        Laptops1 = (ImageView) findViewById(R.id.laptop_pc);
+        watches1 = (ImageView) findViewById(R.id.watches);
+        mobilePhones1 = (ImageView) findViewById(R.id.mobilephones);
 
 
         tShirts.setOnClickListener(new View.OnClickListener() {
@@ -181,6 +187,49 @@ public class AdminCategoryActivity extends AppCompatActivity {
 
 
         mobilePhones.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(AdminCategoryActivity.this, com.CropMer.shopping.AdminAddNewProductActivity.class);
+                intent.putExtra("category", "Mobile Phones");
+                startActivity(intent);
+            }
+        });
+
+        headPhonesHandFree1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(AdminCategoryActivity.this, com.CropMer.shopping.AdminAddNewProductActivity.class);
+                intent.putExtra("category", "HeadPhones HandFree");
+                startActivity(intent);
+            }
+        });
+
+
+        Laptops1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(AdminCategoryActivity.this, com.CropMer.shopping.AdminAddNewProductActivity.class);
+                intent.putExtra("category", "Laptops");
+                startActivity(intent);
+            }
+        });
+
+
+        watches1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(AdminCategoryActivity.this, com.CropMer.shopping.AdminAddNewProductActivity.class);
+                intent.putExtra("category", "Watches");
+                startActivity(intent);
+            }
+        });
+
+
+        mobilePhones1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {

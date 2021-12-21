@@ -16,7 +16,8 @@
             android:id="@+id/cart_product_name"
             android:layout_width="160dp"
             android:layout_height="wrap_content"
-            android:text="Product Name"
+            android:text="పంట
+పేరు"
             android:textColor="@android:color/white"
             android:layout_marginLeft="2dp"
             android:textStyle="bold"
@@ -26,7 +27,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="Product Quantitiy"
+            android:text="పంట పరిమాణం"
             android:textAlignment="viewEnd"
             android:textColor="@android:color/white"
             android:layout_marginLeft="15dp"
@@ -37,7 +38,8 @@
             android:id="@+id/cart_product_price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Product Price"
+            android:text="పంట
+ధర"
             android:textColor="@android:color/white"
             android:textStyle="bold"
             android:layout_below="@+id/cart_product_quantity"
